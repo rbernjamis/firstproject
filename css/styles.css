@@ -24,16 +24,32 @@ div {
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
+  padding: 10px;
+  width: 50px;
+
   text-align: center;
   background: white;
   background-color: rgb(32, 24, 24);
 }
-
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+h3 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
 .header h1 {
   font-size: 50px;
 }
-
+.fakeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /*  top navigation bar */
 .topnav {
   overflow: hidden;
@@ -58,15 +74,14 @@ div {
 }
 
 /* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
+.column {
+  width: 76%;
 }
 
 /* Right column */
 .rightcolumn {
-  float: left;
-  width: 22%;
+  float: right;
+  width: 23%;
   background-color: rgb(32, 24, 24);
   padding-left: 20px;
 }
@@ -76,15 +91,17 @@ div {
   background-color: rgb(32, 24, 24);
   padding: 20px;
   margin-top: 20px;
+  float: left;
 }
 .card1 {
   background-color: rgb(32, 24, 24);
+  margin-right: 50px;
 }
+
 div.gallery {
   margin: 5px;
-
   float: left;
-  width: 180px;
+  width: 190px;
 }
 
 div.gallery:hover {
@@ -97,7 +114,7 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 
