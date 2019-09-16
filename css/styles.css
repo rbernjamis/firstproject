@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Georgia", Times, serif;
   font-size: 19px;
   color: white;
 }
@@ -86,7 +86,7 @@ h5 {
   padding-left: 20px;
 }
 
-/* Add a card effect for articles */
+/* Card effect for articles */
 .card {
   background-color: rgb(32, 24, 24);
   padding: 20px;
@@ -95,9 +95,11 @@ h5 {
 }
 .card1 {
   background-color: rgb(32, 24, 24);
-  margin-right: 50px;
+  margin-right: 30px;
+  font-size: 10px;
 }
 
+/* Project gallery images */
 div.gallery {
   margin: 5px;
   float: left;
@@ -123,15 +125,6 @@ div.desc {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  background-color: rgb(32, 24, 24);
-  margin-top: 20px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
